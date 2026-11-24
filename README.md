@@ -13,10 +13,10 @@ The funniest single-line safety warning label that should come printed on every 
 ## Run it
 
 ```sh
-node main.mjs
+python3 main.py
 ```
 
-This writes the entry to `/output/entry.txt` and validates it against the bounty gate first: one single line, 100–160 characters, non-blank, starting with `WARNING:`. Run `npm test` to re-validate the entry and the written output file.
+This writes the entry to `/output/entry.txt` and validates it against the bounty gate first: one single line, 100–160 characters, non-blank, starting with `WARNING:`. Run `node main.mjs` (the same entry in Node) or `npm test` to re-validate the entry and the written output file.
 
 ---
 
